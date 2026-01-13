@@ -88,7 +88,7 @@ class StudyTracker
         }
 
         System.out.println("---------------------------------------------------------------");
-        System.out.println("Log Report from Marvellous Study Tracker");
+        System.out.println("Log Report from Bhaktiee's Study Tracker");
         System.out.println("---------------------------------------------------------------");
 
         for(StudyLog sobj : Database)
@@ -145,7 +145,7 @@ class StudyTracker
         }
 
         System.out.println("---------------------------------------------------------------");
-        System.out.println("------ Summary by date from Marvellous Study Tracker ----------");
+        System.out.println("------ Summary by date from Bhaktiee's Study Tracker ----------");
         System.out.println("---------------------------------------------------------------");
 
         TreeMap <LocalDate, Double> tobj = new TreeMap <LocalDate, Double> ();
@@ -189,7 +189,7 @@ class StudyTracker
         }
 
         System.out.println("---------------------------------------------------------------");
-        System.out.println("------ Summary by subject from Marvellous Study Tracker -------");
+        System.out.println("------ Summary by subject from Bhaktiee's Study Tracker -------");
         System.out.println("---------------------------------------------------------------");
 
         TreeMap <String, Double> tobj = new TreeMap <String, Double> ();
@@ -234,7 +234,7 @@ class StudyTrackerApp    //StudyTrackerStarter
         int iChoice = 0;
 
         System.out.println("---------------------------------------------------------------");
-        System.out.println("--------- Welcome Marvelous Study Tracker Application ---------");
+        System.out.println("--------- Welcome Bhaktiee's Study Tracker Application ---------");
         System.out.println("---------------------------------------------------------------");
 
         do
@@ -273,7 +273,7 @@ class StudyTrackerApp    //StudyTrackerStarter
 
                 case 6:            // Exit the Application
                     System.out.println("---------------------------------------------------------------");
-                    System.out.println("Thank you for using Marvellous study log application");
+                    System.out.println("Thank you for using Bhaktiee's study log application");
                     System.out.println("---------------------------------------------------------------");
                     break;
 
@@ -284,5 +284,6 @@ class StudyTrackerApp    //StudyTrackerStarter
 
         }while(iChoice != 6);
     }
+
 
 }
